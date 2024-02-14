@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8a8a8a;
+}
+
+header {
+    background-color: #ffffff;
+    height: 75px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__wrap__a {
+    padding-top: 25px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #353535;
+    text-underline-offset: 4px;
+}
+
+/* Made Andriyanov  */
+
+.form__block {
+    margin-top: 25px;
+    margin-left: 25px;
+
+    width: 500px;
+    height: 565px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.form__block__h2 {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 15px;
+    background-color: #afafaf;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.form__block__legend {
+    font-family: Roboto;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #575757;
+}
+
+.form__block__textarea {
+    background-color: #d4d4d4;
+    resize: none;
+    margin: 15px;
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 85%;
+    height: 125px;
+    border: 1px solid #a8a8a8;
+    outline:none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.form__block__hr {
+    width: 89%;
+    height: 2px;
+    margin-left: 25px;
+    background-color: #d4d4d4;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form__block__button {
+    margin-top: 10px;
+    margin-left: 140px;
+    width: 200px;
+    padding: 10px;
+    background-color: #a8a8a8;
+    border: 0px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Made Andriyanov  */
+
+.posts__block {
+    margin-top: 25px;
+    margin-left: 40px;
+
+    width: 800px;
+    height: 800px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.posts__block__text {
+    background-color: #b9b9b9;
+    margin: 25px;
+    border-radius: 10px;
+    overflow-y:scroll;
+    height: 750px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.posts__block__h2 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 22px;
+    color: #696969;
+}
+
+.posts__block__p {
+    padding: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.json__block {
+    margin: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.posts__block__button {
+    display: flex;
+    background-color: #afafaf;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.post__title__block {
+    margin: 25px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.post__title__block__text {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #696969;
+}
+
+/* Made Andriyanov  */
